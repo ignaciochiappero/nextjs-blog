@@ -1,0 +1,36 @@
+.navContainer {
+    display: inline-flex;
+    background-color: #000000;
+    padding: 10px;
+    gap: 20px;
+    border-radius: 5px;
+}
+
+.backToHome {
+    display: inline-flex;
+    padding: 10px;
+    border-radius: 5px;
+    margin:20px;
+    background-color: blanchedalmond;
+    color: #000000;
+}
+
+.imgContainer {
+    margin: 20px;
+}
+
+.blogContainer {
+    padding: 5px;
+    margin: 5px;
+    border: solid aliceblue 3px;
+    border-radius: 5px;
+
+
+}
+
+.blogMainContainer {
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 20px;
+    margin-right: 20px;
+}
